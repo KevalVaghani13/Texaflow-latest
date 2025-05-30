@@ -13,7 +13,7 @@ export const Header = () => {
           {/* Logo - Left side */}
           <div className="flex items-center space-x-2 sm:space-x-3">
             <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-base sm:text-lg">T</span>
+              <img src="/Logo 2.png" alt="TexaFlow Logo" className="w-full h-full object-contain rounded-lg" />
             </div>
             <div>
               <h1 className="text-lg sm:text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">

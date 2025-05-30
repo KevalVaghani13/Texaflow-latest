@@ -271,34 +271,34 @@ export const PricingSection = () => {
 
             <div className="space-y-1.5 md:space-y-2">
               <Label htmlFor="email" className="text-xs md:text-sm font-medium text-gray-700">
-                Email
-              </Label>
-              <Input
-                id="email"
-                name="email"
-                type="email"
+                  Email
+                </Label>
+                <Input
+                  id="email"
+                  name="email"
+                  type="email"
                 placeholder="Enter email address"
                 className={`border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-lg h-8 md:h-9 text-xs md:text-sm ${formErrors.email ? 'border-red-500' : ''}`}
-              />
-              {formErrors.email && (
+                />
+                {formErrors.email && (
                 <p className="text-xs text-red-500 mt-1">{formErrors.email}</p>
-              )}
-            </div>
+                )}
+              </div>
 
             <div className="space-y-1.5 md:space-y-2">
               <Label htmlFor="phone" className="text-xs md:text-sm font-medium text-gray-700">
-                Phone
-              </Label>
-              <Input
-                id="phone"
-                name="phone"
-                type="tel"
-                placeholder="Enter phone number"
+                  Phone
+                </Label>
+                <Input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="Enter phone number"
                 className={`border-gray-200 focus:border-blue-500 focus:ring-blue-500 rounded-lg h-8 md:h-9 text-xs md:text-sm ${formErrors.phone ? 'border-red-500' : ''}`}
-              />
-              {formErrors.phone && (
+                />
+                {formErrors.phone && (
                 <p className="text-xs text-red-500 mt-1">{formErrors.phone}</p>
-              )}
+                )}
             </div>
 
             <div className="space-y-1.5 md:space-y-2">
@@ -336,12 +336,12 @@ export const PricingSection = () => {
               )}
             </div>
 
-            <Button 
-              type="submit" 
+              <Button 
+                type="submit"
               className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 md:py-3 text-sm md:text-base"
-            >
+              >
               Submit Request
-            </Button>
+              </Button>
           </form>
         </DialogContent>
       </Dialog>
